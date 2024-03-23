@@ -1,0 +1,89 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+
+.letter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .letter-container {
+    flex-direction: row;
+  }
+}
+
+.img {
+  width: 600px;
+  order: 1;
+}
+@media screen and (min-width: 576px) {
+  .img {
+    width: 400px;
+  }
+  .name {
+    font-size: 28px;
+  }
+}
+
+.sub-container {
+  order: 0;
+}
+.name {
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #fff;
+}
+
+.input-content-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container {
+  text-align: start;
+}
+
+.input-name {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #e4e7eb;
+}
+
+.calculate-input {
+  outline: none;
+  width: 250px;
+  height: 35px;
+  color: #e4e7eb;
+  font-size: 18px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin-top: 10px;
+  padding-left: 15px;
+}
+
+.count {
+  width: 178px;
+  height: 45px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #219a6f;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
